@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<VBox fx:controller="com.example.lesson4.HelloController" xmlns:fx="http://javafx.com/fxml" alignment="CENTER">
+    <Label fx:id="mainTitle" text="Chat"  />
+    <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" editable="false" />
+    <TextField fx:id="mainMessage" onAction="#btnOneClickAction"/>
+    <Button fx:id="mainButton" text="to send" onAction="#btnOneClickAction"/>
+</VBox>
